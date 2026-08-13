@@ -72,7 +72,7 @@ if uploaded_file is not None:
         st.image(image, use_container_width=True)
     with col2:
         st.subheader("Detections")
-        st.image(annotated, use_column_width=True)
+        st.image(annotated, use_container_width=True)
 
     st.metric("Grains detected", n_grains)
 
